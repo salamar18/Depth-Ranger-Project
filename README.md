@@ -67,13 +67,32 @@ The rep counter decrements when proper depth is reached. When the rep count hits
 
 ## 📂 Project Structure
 
-> _Add folder and file descriptions here if the repo is organized into multiple parts, e.g., `/firmware`, `/mobile-app`, `/docs`, etc._
+depth-ranger/
+- depth_ranger_ble/
+- depth_ranger_ble.ino           # Main application with Bluetooth functionality
+- BluefruitConfig.h              # Pin definitions and Bluetooth module configuration
 
+examples/
+- depth_ranger_serial/
+- depth_ranger_serial.ino    # Simplified version using Serial Monitor (no Bluetooth)
+
+README.md
+
+LICENSE
+
+CAD Skeleton   
+
+Main Application
+
+- depth_ranger_ble.ino - Full-featured Depth Ranger with Bluetooth Low Energy support for mobile app communication, real-time squat depth monitoring, and customizable training parameters
+  
+- BluefruitConfig.h - Hardware configuration file defining pin assignments for the Adafruit Bluefruit LE module, buffer sizes, and communication settings
+  
 ---
 
 ## Contributors
 
-- **Sean Alamar** – Creator, Developer
+ **Sean Alamar** – Creator, Developer
 
 ---
 
