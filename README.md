@@ -54,4 +54,5 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-<img width="1023" height="672" alt="Screen Shot 2020-03-31 at 7 30 54 PM" src="https://github.com/user-attachments/assets/8c1ec4d2-b8b5-44ea-9fec-f865fa8c5290" />
+![IMG_7585](https://github.com/user-attachments/assets/8faea70c-b6f4-4a86-a4a4-7b605dd5569d)
+
