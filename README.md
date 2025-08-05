@@ -25,7 +25,43 @@
 
 ## Getting Started
 
-> _Add instructions here on how to set up and run the project, including hardware setup and app installation. You can add this after pushing code or write TODOs for now._
+Follow these steps to set up and run the Depth Ranger firmware on your microcontroller.
+
+**Requirements**
+
+Hardware:
+- Adafruit Bluefruit LE SPI module (nRF51822-based)
+
+- Ultrasonic distance sensor (e.g., HC-SR04 or compatible)
+
+- RGB LED (common cathode or anode)
+
+- Piezo buzzer
+
+- Microcontroller (e.g., Arduino Uno, Feather, etc.)
+
+- Smartphone with Adafruit’s Bluefruit Connect app
+
+- Breadboard, jumper wires, USB cable
+
+Software:
+- Arduino IDE
+
+- Adafruit BLE libraries (see below)
+
+- This repo's depth_ranger.ino file
+
+How It Works
+
+Depth is continuously measured by the ultrasonic sensor when you squat past your custom parallel height: 
+
+- In Training Mode: device beeps and flashes red LED
+
+- In Competition Mode: no feedback during rep; feedback only after
+
+- If paused below parallel for the defined time, the LED turns white.
+
+The rep counter decrements when proper depth is reached. When the rep count hits 0, buzzer and LED flash 3 times. At the end you're prompted via Bluetooth to enter a new rep goal.
 
 ---
 
