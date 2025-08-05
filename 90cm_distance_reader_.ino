@@ -1,4 +1,7 @@
-  // defines pins numbers
+
+// MAIN LOGIC FOR USING THE DEPTH RANGER
+
+// defines pins numbers
   const int trigPin = A5;
   const int echoPin = A4;
   const int buzzer = A3;
