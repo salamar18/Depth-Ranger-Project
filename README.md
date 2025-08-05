@@ -49,7 +49,9 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ## 📝 Notes
 
-> _Optional section: share challenges, future improvements, or what you learned while building the project._
+> To see a realtime preview of the Depth Ranger, checkout the below video!
+> https://www.youtube.com/watch?v=Fg7yNL4kJIA
 
 ---
 
+<img width="1023" height="672" alt="Screen Shot 2020-03-31 at 7 30 54 PM" src="https://github.com/user-attachments/assets/8c1ec4d2-b8b5-44ea-9fec-f865fa8c5290" />
